@@ -9,20 +9,18 @@
     <link rel="stylesheet" href="./css/estilo.css">
     <script src="./script.js" defer></script>
 </head>
-<body>
+<body onload="carregar()">
     <header class="cabecalho">
         <h1 class="titulo-principal">Hora do Dia</h1>
     </header>
     <main class="corpo-principal">
         <div class="box-principal">
             <section class="secao-dividir">
-                <div class="box-section-1">
-                    <p>Aqui vai aparecer a msg...</p>
-                </div>
-                <div class="box-section-2">
-
-                        <img class="fill" src="./img/manhâ_250.jpg" alt="imagem da hora do dia">
-
+                <div id="msg" class="box-section-1">
+                    Aqui vai aparecer a msg...
+                </div> 
+                <div  class="box-section-2">
+                        <img  id="imagem" class="fill" src="./img/manha_250.jpg" alt="imagem da hora do dia">
                 </div>
 
             </section>
