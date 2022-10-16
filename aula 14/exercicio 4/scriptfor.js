@@ -4,7 +4,8 @@ function contadora() {
     let passo = c + document.getElementById('step')
 
     for (c; c <= fim; passo) {
-        resultado.innerHTML = `Contando ${c}`
+        document.getElementById('resultado')
+        resultado.innerHTML = `${c}`
     }
 }
 
