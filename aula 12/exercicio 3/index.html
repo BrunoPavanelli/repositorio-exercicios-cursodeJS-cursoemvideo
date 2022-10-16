@@ -11,16 +11,26 @@
 </head>
 <body onload= "carregar()">
     <header class="cabecalho">
-        <h1 class="titulo-principal">Hora do Dia</h1>
+        <h1 class="titulo-principal">Verificador De Idade</h1>
     </header>
     <main class="corpo-principal">
         <div class="box-principal">
             <section class="secao-dividir">
-                <div id="msg" class="box-section-1">
-                    <p id="msg">Aqui vai aparecer a msg...</p> 
+                <div class="box-section-1">
+                    <p class="ano-nasc">Ano de nascimento:
+                        <input type="number" name="txt-ano" id="txt-ano" size="6">
+                        <label for="txt-number"></label>
+                    </p>
+                    <p class="sex-input">Sexo:
+                        <input type="radio" name="radsex" id="masc">
+                        <label for="masc">Masculino</label>
+                        <input type="radio" name="radsex" id="fem">
+                        <label for="fem" checked >Feminino</label>
+                    </p>
                 </div> 
-                <div class="box-section-2">
-
+                <div id="res" class="box-section-2">
+                    <input class="botao" type="button" value="Verificar" onclick="verificar()">
+                    <p>Preencha os dados acima para ver os resultados </p>
                 </div>
 
             </section>
@@ -29,6 +39,6 @@
     <footer>
         <p><em>&copy CursoemVideo</em> </p>
     </footer>
-    <script src="./script14.js"></script>
+    <script src="./script15.js"></script>
 </body>
 </html>
