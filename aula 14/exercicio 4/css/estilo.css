@@ -23,7 +23,7 @@ body {
 }
 
 .box-principal .box-section-1 {
-    height: 350px;
+    height: 300px;
     width: 390px;
     display: flex;
     flex-direction: column;

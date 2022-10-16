@@ -7,7 +7,7 @@
     <title>Curso JS - CursoemVideo - Aula 13 - Exercícios</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/estilo.css">
-    <script src="./script.js" defer></script>
+    <script src="./scriptfor.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -26,9 +26,13 @@
                     <label for="step">Passo</label>
                     <input type="number" name="passo" id="step">
 
-                    <input type="button" value="Contar">
-                    
+                    <input type="button" value="Contar" onclick="contadora()">
                 </div>
+                
+                <div id="resultado">
+                    Contando...
+                </div>
+
             </section>
         </div>
     </main>
