@@ -22,6 +22,14 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
 }
 
+.box-principal .box-section-1 {
+    height: 350px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 footer p {
     color: white;
 }
