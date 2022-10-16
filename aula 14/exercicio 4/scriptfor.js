@@ -13,7 +13,10 @@ function contar() {
         let i = Number(c.value)
         let f = Number(fim.value)
         let p = Number(passo.value)
-
+        if (p <= 0) {
+            alert(`Passo invalido! Considerando passo 1`)
+            p = 1
+        }
         if (i < f) {
             // Crescente
             for (let c = i; c <= f; c += p) {
